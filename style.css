@@ -1,7 +1,14 @@
-/* body {
-    background-image: '/homesImg.jpg';
-    
-} */
+* {
+    font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+    font-size: 93.75%;
+}
+
+body {
+    background-image: url(https://static1.housesforsale.com/assets/cover/housesforsalebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 header {
     height: 100%;
@@ -21,13 +28,14 @@ main {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: c;
+    justify-content: center;
 
 }
 
 .border {
+    align-items: center;
     border: solid 1px black;
-    padding: 20px;
+    padding: 73px;
     margin: 50px;
 }
 
