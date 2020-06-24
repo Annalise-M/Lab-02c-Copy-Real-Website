@@ -55,11 +55,13 @@ div {
     justify-content: center;
     align-items: center;
     table-layout: auto;
-    display: flex;
+    display: -webkit-flex;;
     padding: 2px;
-    margin: 50px;
-    
+    margin: 50px; 
 }
+
+/* would love to add a hover feature over the sections but not enough time */
+
 
 /* max-width: 500px;
 grid-template-columns: 1fr 1fr 1fr;
