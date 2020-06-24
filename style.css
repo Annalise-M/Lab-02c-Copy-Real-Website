@@ -1,0 +1,60 @@
+/* body {
+    background-image: '/homesImg.jpg';
+    
+} */
+
+header {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    table-layout: auto;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: c;
+
+}
+
+.border {
+    border: solid 1px black;
+    padding: 20px;
+    margin: 50px;
+}
+
+div {
+    box-sizing: border-box;
+    box-shadow: black;
+    background: lightsalmon;
+}
+
+.content {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+} */
+
+.section {
+    justify-content: center;
+    align-items: center;
+    table-layout: auto;
+    display: flex;
+    padding: 2px;
+    margin: 50px;
+    
+}
+
+/* max-width: 500px;
+grid-template-columns: 1fr 1fr 1fr;
+box-sizing: border-box;
+border-radius: 2px;
+display: inline; */
